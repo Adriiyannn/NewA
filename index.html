@@ -69,35 +69,31 @@
     }
 
     .portfolio-text {
-      font-size: 70px;
-      font-weight: bolder;
-      position: relative; 
-      top: -20%; 
-      padding-left: 60%; 
-    }
+  font-size: 50px;
+  font-weight: bold;
+}
 
-    .port {
-      color: rgb(43, 90, 124);
-    }
+.port {
+  color: rgb(104, 108, 112); 
+}
 
-    .intro-text {
-      padding-left: 20px;
-      text-align: justify;
-    }
+.intro-text h2 {
+  font-size: 40px;
+}
 
-    h2 {
-      font-size: 50px;
-      font-weight: bold;
-    }
+.p1 {
+  font-size: 20px;
+  font-weight: bold;
+}
 
-    .p1 {
-      font-size: 25px;
-      font-weight: bold;
-      padding-top: 10px;
-    }
+.p2 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
 
     .student {
-      color: rgb(43, 90, 124);
+      color: rgb(104, 108, 112);
       font-weight: bold;
     }
 
@@ -107,21 +103,23 @@
       margin-bottom: 10%;
       padding-left: 30%;
       margin-top: 20px;
-      border: 3px solid rgb(43, 90, 124);
-      background-color: rgb(43, 90, 124);
+      border: 3px solid rgb(104, 108, 112);
+      background-color: rgb(29, 33, 36);
       padding: 30px;
-      border-top-right-radius: 80px;
+      border-top-right-radius: 70px;
       border-bottom-left-radius: 80px;
     }
 
+
     .image-container img {
-      max-width: 120%; 
+      max-width: 150%; 
       height: auto; 
     }
 
     .larger-image {
       width: 150%;
       height: auto;
+      
     }
 
     .project-card {
@@ -217,36 +215,53 @@
   </nav>
 
   <section>
-    <!--home-->
+    <!-- Home -->
     <div id="home" class="container mt-5">
-      <div class="portfolio-text text-light"><span class="port">Port</span>folio</div>
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <img src="about.jpg" alt="Profile Image" class="img-fluid larger-image">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <div class="portfolio-text text-light">
+            <span class="port">Port</span>folio
+          </div>
         </div>
+      </div>
+  
+      <div class="row align-items-center mt-4">
+        <!-- Profile Image -->
         <div class="col-md-6">
-          <div class="intro-text">
+          <img src="picss.png" alt="Profile Image" class="img-fluid larger-image">
+        </div>
+  
+        <!-- Intro Text -->
+        <div class="col-md-6">
+          <div class="intro-text"> 
             <h2>Adrian Caballero</h2>
             <p class="p1"> IT <span class="student">STUDENT</span></p>
           </div>
         </div>
       </div>
     </div>
-
-    <!--about me-->
+  
+    <!-- About Me -->
     <div id="aboutme" class="container mt-5">
       <div class="row align-items-center">
-        <div class="col-md-6 d-flex justify-content-start">
-          <p class="p2">
-            Hello! I’m Adrian Caballero, a web developer based in the Iligan City Area. I specialize in crafting visually appealing and functional websites using technologies like HTML, CSS, JavaScript, and frameworks such as React. With a strong foundation in cloud services and programming languages like Python, I have a passion for creating seamless user experiences and innovative digital solutions.
-          </p>
+        <!-- About Me Image (Right side) -->
+        <div class="col-md-5 d-flex justify-content-end">
+          <img src="about.jpg" alt="Image" class="img-fluid larger-image" style="width: 80%; height: auto;">
         </div>
-        <div class="col-md-6 d-flex justify-content-end">
-          <img src="about.jpg" alt="Image" class="img-fluid larger-image" style="width: 65%; height: auto;">
+      
+        <!-- About Me Text (Left side) -->
+        <div class="col-md 5 d-flex justify-content-start"> 
+          <p class="p2"> 
+            Hello! I’m Adrian Caballero, a web developer based in the Iligan City Area.
+            I specialize in crafting visually appealing and functional websites using technologies like HTML, CSS, JavaScript, and frameworks such as React.
+            With a strong foundation in cloud services and programming languages like Python,
+            I have a passion for creating seamless user experiences and innovative digital solutions.
+          </p>
         </div>
       </div>
     </div>
-  </section>
+    
+  
 
   <section>
     <!--projects-->
@@ -280,9 +295,9 @@
           </div>
           <!-- proj 3 -->
           <div class="col">
-            <a href="https://adriiyannn.github.io/FinalP/" target="_blank" class="text-decoration-none">
+            <a href="https://adriiyannn.github.io/AdrianP/" target="_blank" class="text-decoration-none">
               <div class="card project-card">
-                <img src="products.png" alt="Project 3">
+                <img src="e-commerce.png" alt="Project 3">
                 <div class="description">
                   <h5>Project 3</h5>
                   <p>E-commerce Dashboard</p>
