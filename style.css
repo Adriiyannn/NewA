@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('darkb.jpg');
+    color: rgb(170, 158, 158);
+  }
+
+  #home h2, #home p {
+    color: white;
+
+  }
+
+  section {
+    min-height: 100vh;
+    padding: 5em 10%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  section:nth-of-type(2) {
+    background-image: url('darkb.jpg');
+  }
+
+  section:nth-of-type(3) {
+    background-image: url('darkb.jpg');
+  }
+
+  .navbar {
+    height: 70px;
+    background-color: #40424e8c;
+  }
+
+  .navbar .nav-link {
+    font-weight: bold;
+    color: white;
+    transition: color 0.3s ease;
+  }
+    .nav-link:hover {
+      color: #f8d7da; 
+      text-decoration: underline; 
+    }
+   
+  .navbar .nav-link:hover {
+    color: rgb(43, 90, 124);
+    
+  }
+
+  .logo-img {
+    width: 7%;
+    height: auto;
+  }
+
+  .portfolio-text {
+font-size: 50px;
+font-weight: bold;
+}
+
+.port {
+color: rgb(104, 108, 112); 
+font-weight: bold;
+}
+
+.intro-text h2 {
+font-size: 40px;
+}
+
+.p1 {
+font-size: 20px;
+font-weight: bold;
+}
+
+.p2 {
+font-size: 18px;
+font-weight: normal;
+}
+
+  .project-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    height: 300px;
+    box-shadow: 0 10px 20px rgba(224, 167, 9, 0.986);
+  }
+
+  .project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .project-card .description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .project-card:hover .description {
+    opacity: 1;
+  }
+
+  .my-projects-container {
+    border: 2px solid #ebbcbc;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: rgba(97, 74, 74, 0.6);
+  }
+
+  .my-projects {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .info {
+    background: white;
+    padding: 20px;
+    margin-top: 100px;
+    box-shadow: 0px 10px 5px rgb(30, 31, 31);
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+  }
+
+  .response {
+    display: none;
+    margin-top: 20px;
+  }
+
+
+  
