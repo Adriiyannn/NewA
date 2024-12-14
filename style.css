@@ -38,7 +38,7 @@
 
   .navbar {
     height: 70px;
-    background-color: #40424e8c;
+    background-color: #2429418c;
   }
 
   .navbar .nav-link {
@@ -47,12 +47,11 @@
     transition: color 0.3s ease;
   }
     .nav-link:hover {
-      color: #f8d7da; 
-      text-decoration: underline; 
+      background-color: #776d88;  
     }
    
   .navbar .nav-link:hover {
-    color: rgb(43, 90, 124);
+    color: rgb(21, 26, 29);
     
   }
 
@@ -89,7 +88,7 @@ font-weight: normal;
     position: relative;
     overflow: hidden;
     border-radius: 8px;
-    transition: transform 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
     height: 300px;
     box-shadow: 0 10px 20px rgba(224, 167, 9, 0.986);
   }
@@ -117,9 +116,9 @@ font-weight: normal;
   }
 
   .my-projects-container {
-    border: 2px solid #ebbcbc;
-    padding: 30px;
-    border-radius: 12px;
+    border: 10px solid #8a8787;
+    padding: 50px;
+    border-radius: 20px;
     background-color: rgba(97, 74, 74, 0.6);
   }
 
@@ -142,6 +141,59 @@ font-weight: normal;
     display: none;
     margin-top: 20px;
   }
-
-
   
+  
+#contact-form {
+  background-color: #434446; 
+  border: 1px solid #6e5f43; 
+  border-radius: 10px; 
+  padding: 50px; 
+  max-width: 500px; 
+  margin: auto; 
+  box-shadow: 0 4px 6px rgba(173, 104, 94, 0.904); 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+#contact-form:hover {
+  transform: scale(1.02); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+#contact-form .form-control {
+  border: 1px solid #617991; 
+  border-radius: 5px; 
+  padding: 10px; 
+  font-size: 1rem; 
+  background-color: #6e6565;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+#contact-form .form-control:focus {
+  border-color: #646769; 
+  box-shadow: 0 0 5px rgba(93, 140, 190, 0.5);
+  outline: none; 
+  
+}
+
+
+#contact-form .btn {
+  background-color: #585e64; 
+  color: #eedddd; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  font-size: 1rem; 
+  font-weight: bold; 
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+#contact-form .btn:hover {
+  background-color: #6b7e92; 
+  
+}
+

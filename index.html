@@ -77,11 +77,11 @@
         </div>
         <!-- About Me Text -->
         <div class="col-md-6 text-center text-md-start order-md-1">
-          <p class="text-light">
-            Hello! I’m Adrian Caballero, a web developer based in Iligan City. I specialize in crafting visually appealing
+          <p class="text-light" style="background-color:rgb(122, 115, 114);">
+            <b>Hello! I’m Adrian Caballero, a web developer based in Iligan City. I specialize in crafting visually appealing
             and functional websites using technologies like HTML, CSS, and JavaScript. With a strong foundation in
             cloud services and programming languages like Python, I am passionate about creating seamless user
-            experiences and innovative digital solutions.
+            experiences and innovative digital solutions.</b>
           </p>
           <!-- Social Media Links -->
           <div class="social-links mt-4">
@@ -91,9 +91,7 @@
             <a href="https://instagram.com/" target="_blank" class="text-light me-3">
               <i class="fab fa-instagram fa-2x"></i>
             </a>
-            <a href="mailto:your-email@gmail.com" class="text-light">
-              <i class="fas fa-envelope fa-2x"></i>
-            </a>
+
           </div>
         </div>
       </div>
@@ -149,34 +147,37 @@
   </section>
 
   <section>
-    <div id="contact" class="container mt-5">
-      <h1 class="text-center mb-4">Contact Me</h1>
-      <div class="row justify-content-center">
-        <div class="col-md-6 col-lg-4">
-          <form id="contact-form" class="p-4 border rounded shadow">
-            <div class="mb-3">
-              <label for="name" class="form-label">Name:</label>
-              <input type="text" id="name" name="name" class="form-control" required />
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email:</label>
-              <input type="email" id="email" name="email" class="form-control" required />
-            </div>
-            <div class="mb-3">
-              <label for="subject" class="form-label">Subject:</label>
-              <input type="text" id="subject" name="subject" class="form-control" required />
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message:</label>
-              <textarea id="message" name="message" class="form-control" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary w-100">Send Message</button>
-          </form>
-          <div class="response mt-3 text-center" style="display: none;">Thank you for your message!</div>
+    <div id="contact" class="d-flex align-items-center justify-content-center vh-100">
+      <div class="container">
+        <h1 class="text-center mb-4">Contact Me</h1>
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-4">
+            <form id="contact-form" class="p-4 border rounded shadow">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" name="name" class="form-control" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required />
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject:</label>
+                <input type="text" id="subject" name="subject" class="form-control" required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message:</label>
+                <textarea id="message" name="message" class="form-control" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Send Message</button>
+            </form>
+            <div class="response mt-3 text-center" style="display: none;">Thank you for your message!</div>
+          </div>
         </div>
       </div>
     </div>
   </section>
+  
 
   
 
